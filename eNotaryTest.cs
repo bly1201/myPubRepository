@@ -19,7 +19,9 @@ namespace eNotaryLog
     {
         IWebDriver driver = new ChromeDriver();
         string pageTitle = null;
-
+        /// <summary>
+        /// Test Repository clone.
+        /// </summary>
         [Test,Order(1)]
         [Obsolete]
         public void VerifyMainPageLaunch()
